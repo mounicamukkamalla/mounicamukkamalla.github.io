@@ -1,0 +1,538 @@
+body, html{
+	font-size: 16px;
+	font-family: 'Averia Sans Libre', 'cursive';
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	margin: 0px 0px;
+	color: #f3ea12;
+}
+
+p{
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
+/*onboarding*/
+
+.piku1_onboarding {
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 400px;
+height:400px;
+}
+
+.rectangle {
+	width: 1000px;
+	height:200px;
+	position: fixed;
+    background-color: #4e2e4e;
+}
+
+#welcome{
+	font-size: 25px;
+	color: #fff;
+}
+
+#welcome h3 {
+	text-align: center;
+	padding-top: 10px;
+    padding-right: 30px;
+}
+
+#welcome h6{
+	text-align: center;
+	padding-right: 30px;
+}
+
+/*story*/
+
+.header{
+	width: 1024px;
+	background-color:rgba(0,0,0,0.2);
+	padding: 20px 50px;
+}
+
+.logoheader{
+	width: 1024px;
+	background-color:#4e2e4e;
+	padding: 20px 50px;
+}
+
+.dashboardbg{
+	background-image: url("../media/background/dashboard.png");
+	min-height: 768px;
+	max-width: 1024px;
+	float: left;
+}
+
+/*dashboard title color*/
+
+a:hover{
+text-decoration:none;
+}
+
+.festivaltitle1{
+	color: #e68712;
+	text-transform: uppercase;
+}
+.festivaltitle2{
+	color: #027e77;
+	text-transform: uppercase;
+}
+.festivaltitle3{
+	color: #d6033e;
+	text-transform: uppercase;
+}
+.festivaltitle4{
+	color: #1aae5e;
+	text-transform: uppercase;
+}
+.festivaltitle5{
+	color: #894154;
+	text-transform: uppercase;
+}
+.festivaltitle6{
+	color: #cd2d57;
+	text-transform: uppercase;
+}
+
+.dashboardnotification{
+	position: absolute;
+left: 310px;
+width: 110px;
+bottom: 110px;
+color: #fff;
+}
+
+
+/*family*/
+
+.familydashboard {
+	background-image: url("../media/background/familydashboard.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.eventstitle{
+	color: #ed1954;
+	font-size: 25px;
+    
+}
+
+/* stories*/
+.story_02{
+	background-image: url("../media/background/bg_02.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_01{
+	background-image: url("../media/background/bg_01.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_03{
+	background-image: url("../media/background/bg_03.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_04{
+	background-image: url("../media/background/bg_04.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_05{
+	background-image: url("../media/background/bg_05.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_06{
+	background-image: url("../media/background/bg_06.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_07{
+	background-image: url("../media/background/bg_07.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.story_08{
+	background-image: url("../media/background/bg_08.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+.story_09{
+	background-image: url("../media/background/bg_09.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+.story_10{
+	background-image: url("../media/background/bg_10.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+.story_11{
+	background-image: url("../media/background/bg_11.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.icons{
+	height: 40px;
+	width: 40px;
+}
+
+.logo{
+	height: 45px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+
+.nav{
+	position: absolute;
+	top:680px;
+}
+
+#back{
+	left:40px;
+	height: 20px;
+	width: 20px;
+}
+
+#next{
+	left: 944px;
+	height: 20px;
+	width: 20px;
+}
+
+.storycontent1 {
+	float: right;
+	margin-right: 90px;
+	padding-top: 70px;
+	width: 30%;
+	margin-bottom: 30px;
+}
+
+.storycontent1 p{
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.storycontent3 p{
+	color: #fff;
+	float: right;
+	font-size: 25px;
+	height: 60px;
+	margin-right: 90px;
+	padding-top: 400px;
+	width: 30%;
+}
+
+
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.device {
+    margin-top: 20px;
+}
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+}
+.swiper-wrapper {
+	position:relative;
+	width:100%;
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+.swiper-free-mode > .swiper-wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.swiper-slide {
+	float: left;
+position: relative;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles, here you need to specify container's and slide's
+sizes, pagination, etc.
+================================================================*/
+.swiper-container {
+	/* Specify Swiper's Size: */
+
+	/*width:200px;
+	height: 100px;*/
+}
+.swiper-slide {
+	/* Specify Slides's Size: */
+	
+	/*width: 100%;
+	height: 100%;*/
+}
+.swiper-slide-active {
+	/* Specific active slide styling: */
+	
+}
+.swiper-slide-visible {
+	/* Specific visible slide styling: */	
+
+}
+/* ===============================================================
+Pagination Styles
+================================================================*/
+.swiper-pagination-switch {
+	/* Stylize pagination button: */	
+
+}
+.swiper-active-switch {
+	/* Specific active button style: */	
+	
+}
+.swiper-visible-switch {
+	/* Specific visible button style: */	
+	
+}
+
+.device .arrow-left {
+  color: #FFF;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
+.device .arrow-right {
+  color: #FFF;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
+.swiper-container {
+  width: 900px;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.swiper-slide .title {
+ font-size: 14px;
+position: absolute;
+z-index: 999;
+bottom: 168px;
+left: 0px;
+right: 0px;
+margin-left: auto;
+margin-right: auto;
+color: #fff;
+}
+.pagination {
+  position: absolute;
+  z-index: 20;
+  left: 10px;
+  bottom: 10px;
+  display: none;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #222;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+
+}
+.swiper-visible-switch {
+  background: #aaa;
+}
+.swiper-active-switch {
+  background: #fff;
+}
+
+
+/*wordpuzzle*/
+.wordpuzzle{
+	height: 250px;
+    width: 250px;
+}
+.wordpuzzletitle{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 15px;
+
+}
+.wordpuzzleheading{
+	text-transform: uppercase;
+	margin: 0px 0px;
+	color: #fff;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 55px;
+
+}
+.wordpuzzlebg{
+	background-color: #21b3bf;
+}
+.wordpuzzleheader{
+	width: 1024px;
+	background-color:#1b9099;
+	padding: 20px 50px;
+
+}
+
+/*puzzle*/
+
+.puzzle{
+	height: 250px;
+    width: 250px;
+}
+.puzzlebg{
+	background-color: #df5a40;
+}
+.puzzleheading{
+	text-transform: uppercase;
+	margin: 0px 0px;
+	color: #fff;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+
+.swiper-slide .puzzletitle{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.puzzleheader{
+	width: 1024px;
+	background-color:#903b2a;
+	padding: 20px 50px;
+}
+
+.puzzle_tomb_bg{
+	background-color: #4e2e4e;
+	width: 1024px;
+}
+
+.tombpuzzletitle{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.tombpuzzle_1{
+	width: 500px;
+	height: 350px;
+	margin-left: 130px;
+	padding-top: 5px;
+}
+
+.puzzledimensions_2{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.puzzletooltip:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.puzzletooltip{
+	display: block;
+	margin: 0 auto;
+	width:36%;
+}
