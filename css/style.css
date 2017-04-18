@@ -5,55 +5,359 @@ body, html{
 	margin: 0;
 }
 
+
 h1{
 	margin: 0px 0px;
 	color: #f3ea12;
 }
 
-p{
-	color: #fff;
-	margin-top: 0;
-	margin-bottom: 0;
+
+
+/*splashscreen*/
+
+.splashlogo{
+	float: right;
+    align-content: center;
+    margin-right: 380px;
+    margin-top: 350px;
 }
-
-
 
 
 
 /*onboarding*/
 
-.piku1_onboarding {
-padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding-left: 400px;
-height:400px;
+.piku_1 {
+width: 60%;
+float: left;
+}
+
+.piku_01 {
+	float: right;
 }
 
 .rectangle {
-	width: 1000px;
-	height:200px;
-	position: fixed;
-    background-color: #4e2e4e;
+	width: 1024px;
+	height: 252px;
+	background-color: #4e2e4e;
+	float: right;
 }
 
-#welcome{
-	font-size: 25px;
+.rectangle h3{
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	margin-right: 350px;'
+	margin-top: 5px;
+}
+
+.rectangle h6{
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-right: 293px;
+	font-weight: lighter;
+	margin-top: 10px;
+
+}
+
+
+
+.notification_1{
+	width: 40%;
+	float: right;
+}
+.notification_1 h4{
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 15%;
+	left: 69%;
+}
+
+.content{
+	margin-top: 5%;
+}
+
+/*onboarding_1*/
+
+.background_1{
+	background-color: #4e2e4e;
+}
+
+.aboutchild h3{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+
+}
+
+.aboutchild h6{
+color: #fff;
+text-align: center;
+font-size: 20px;
+font-weight: lighter;
+
+}
+
+.addicon{
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.addicon p{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	color:#fff;
+	margin-top: 10px;
+
+}
+
+/*onboarding_2*/
+
+.aboutchild_rectangle{
+	background-color: #3d213d;
+	height: 428px;
+	margin-top: 200px;
+	;
+}
+
+.left_content{
+	width: 40%;
+	float: left;
+}
+
+.left_content h2{
+	font-weight: lighter;
+}
+.addchild{
+	float: right;
+	padding: 5%;
+}
+
+.addchild h2{
+	text-align: right;
 	color: #fff;
 }
 
-#welcome h3 {
-	text-align: center;
-	padding-top: 10px;
-    padding-right: 30px;
+.addchild h3 h6{
+	font-size: 30px;
+	color: #fff;
 }
 
-#welcome h6{
-	text-align: center;
-	padding-right: 30px;
+.right_content{
+	width: 40%;
+	float: left;
+	margin-left: 8%;
 }
+
+.right_content h4{
+  	margin-top: 10%;
+  	margin-bottom: 0.5%;
+  	color: #ffc51b;
+}
+
+.line {
+  width: 380px;
+  height: 4px;
+  background: #1bbe7a;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: #1bbe7a;
+    border-radius: 100px;
+    border: 5px solid #0ca364;
+    margin-top: 8%;
+    display: inline-block;
+    margin-right: 2%;
+    position: relative;
+}
+
+.circle span{
+	color: #ffc51b;
+	position: absolute;
+	left: 30%;
+	font-size: 20px;
+}
+
+.done_button1 {
+	border-radius: 40px;
+	background-color: #ed1954;
+	color: black;
+	border: 5px solid #cc0e43;
+	height: 80px;
+	width: 150px;
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-top: 8%;
+}
+
+
+/*onboaring_3*/
+
+.addicon_1{
+	margin-left: 26%;
+margin-right: auto;
+display: block;
+margin-top: 31%;
+
+}
+
+.addicon_1 p{
+	font-size: 20px;
+	text-align: center;
+	color:#fff;
+	float: right;
+	margin-right: 61%;
+}
+
+
+.nirvi p{
+	float: right;
+	margin-right: 47.5%;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.circle_1{
+	width: 80px;
+    height: 80px;
+    background-color: #f2e912;
+	border: 5px solid #cbc305;
+    border-radius: 100px;
+    margin-top: 8%;
+    display: inline-block;
+    margin-right: 2%;
+    position: relative;
+    float: right;
+	margin-right: 45%;
+
+}
+.circle_1 span{
+	font-size: 20px;
+	color:#1bbe7a;
+	position: absolute;
+	left: 30%;
+
+}
+
+
+.done_button2 {
+	border-radius: 40px;
+	background-color: #ed1954;
+	color: black;
+	border: 5px solid #cc0e43;
+	height: 80px;
+	width: 150px;
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-top: 8%;
+}
+
+
+/*onboarding_4*/
+
+.aboutapp_1 h3{
+	color: #f2e912;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+.aboutapp_1 h4{
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+/*onboarding_5*/
+
+.handovertablet{
+	font-size: 25px;
+	color: #4e2e4e;
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+.ready_button2 {
+	border-radius: 40px;
+	background-color: #ed1954;
+	color: black;
+	border: 5px solid #cc0e43;
+	height: 80px;
+	width: 150px;
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-right: 300px;
+	margin-top: 465px;
+}
+
+
+.kid{
+	background-image: url("../media/illustrations/kid.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+
+
+
+
+/*onboarding_6*/
+
+.kid_1{
+	background-image: url("../media/illustrations/piku_02.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.yes_button3 {
+	border-radius: 40px;
+	background-color: #ed1954;
+	color: black;
+	border: 5px solid #cc0e43;
+	height: 80px;
+	width: 150px;
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-right: -233px;
+	margin-top: 346px;
+}
+
+.notifications{
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+.kid_1 h4{
+	font-size: 20px;
+color: #fff;
+font-weight: lighter;
+float: right;
+margin-top: 148px;
+margin-right: -249px;
+text-align: justify;
+
+}
+
 
 /*story*/
+
+p{
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
 
 .header{
 	width: 1024px;
@@ -106,26 +410,40 @@ text-decoration:none;
 }
 
 .dashboardnotification{
+	float: right;
+    width: 70%;
+    margin-top: -53px;
+}
+
+.dashboardnotification h4{
 	position: absolute;
-left: 310px;
-width: 110px;
-bottom: 110px;
-color: #fff;
+	color: #fff;
+	float: right;
+	width: 10%;
+	margin-top: -70px;
+	margin-left: 62px;
 }
 
 
 /*family*/
 
-.familydashboard {
-	background-image: url("../media/background/familydashboard.png");
-	min-height: 768px;
-	max-width: 1024px;
+.events_bg{
+	margin-left: 30%;
+	margin-top: 20%;
 }
 
-.eventstitle{
-	color: #ed1954;
-	font-size: 25px;
-    
+.crafts_bg{
+	margin-left: 10%;
+    margin-top: 20%;
+}
+
+
+.family_title h1{
+	font-size: 36px;
+	color: #fcb21e;
+	float: right;
+	margin-right: 22%;
+	margin-top: 7%;
 }
 
 /* stories*/
@@ -197,6 +515,8 @@ color: #fff;
 	width: 40px;
 }
 
+
+
 .logo{
 	height: 45px;
 	text-align: center;
@@ -244,6 +564,215 @@ color: #fff;
 	padding-top: 400px;
 	width: 30%;
 }
+
+/*gamesdashboard*/
+
+.games_dashboard{
+	float: right;
+	margin-top: 70px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+
+}
+
+.games_dashboard p{
+	
+	padding-bottom: 25px;
+}
+
+
+/*wordpuzzle*/
+
+.wordpuzzlebg_01{
+	background-image: url("../media/background/wordpuzzlebg_01.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+.word_ram{
+	display: block;
+	margin: 20px auto;
+}
+
+.blocks{
+	display: block;
+	margin: 20px auto;
+	width: 22%;
+}
+
+.word_block{
+	height: 70px;
+	width: 70px;
+	background-color: #43241a;
+	border-radius: 10px;
+	border: 1px solid #fff;
+ 	display: inline-block;
+}
+
+.word_block p{
+ font-size: 45px;
+ color: #f3ea12;
+ text-align: center;
+}
+
+.level_icon{
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+.level p{
+	margin-left: 45px;
+}
+
+
+
+/*wordpuzzle-scattered*/
+
+.word_block_0{
+	height: 70px;
+	width: 70px;
+	background-color: #43241a;
+	border-radius: 10px;
+	border: 1px solid #fff;
+ 	
+}
+
+.word_block_0 p{
+ font-size: 45px;
+ color: #f3ea12;
+ text-align: center;
+}
+
+.word_block_00{
+	height: 70px;
+	width: 70px;
+	background-color: #43241a;
+	border-radius: 10px;
+	border: 1px solid #fff;
+ 	
+}
+
+.word_block_00 p{
+ font-size: 45px;
+ color: #f3ea12;
+ text-align: center;
+}
+
+
+.word_block_000{
+	height: 70px;
+	width: 70px;
+	background-color: #43241a;
+	border-radius: 10px;
+	border: 1px solid #fff;
+ 	
+}
+
+.word_block_000 p{
+ font-size: 45px;
+ color: #f3ea12;
+ text-align: center;
+}
+
+
+
+
+/*wordpuzzle*/
+
+.wordpuzzlebg_02{
+	background-image: url("../media/background/wordpuzzlebg_02.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+
+/* crafts */
+
+.festivalcraft p{
+	font-size: 30px;
+	color: #ed1954;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+.fest_craft h4 {
+	font-weight: lighter;
+}
+
+.fest_craft h5 {
+	font-weight: lighter;
+}
+
+
+.crafts{
+	margin-top: 7%;
+	max-width: 1024px;
+}
+
+.fest_craft{
+	margin-left: 4%;
+}
+
+.fest_craft:first-child{
+	margin-left: 11%;
+}
+
+.fest_craft h4{
+	position: absolute;
+	top: 18%;
+	left: 38%;
+	color: #fff;
+}
+
+.fest_craft h5{
+	position: absolute;
+	top: 60%;
+	left:40%;
+	color: #fff;
+}
+
+.row_crafts{
+	margin-top: 2%;
+	margin-right: 3%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*diwali craft*/
+.fest_craft_1{
+	margin-left: 4%;
+}
+
+.fest_craft_1:first-child{
+	margin-left: 11%;
+}
+
+.row_crafts_1{
+	margin-top: 3%;
+}
+
+.fest_craft_1 h5{
+color: #3f3f3f;
+text-align: center;
+}
+
+
+.video{
+	float: right;
+	margin-right: 18%;
+	margin-top:5%;
+}
+
 
 
 /*
@@ -433,6 +962,8 @@ color: #fff;
 }
 
 
+
+
 /*wordpuzzle*/
 .wordpuzzle{
 	height: 250px;
@@ -536,3 +1067,28 @@ color: #fff;
 	margin: 0 auto;
 	width:36%;
 }
+
+.puzzledimensions_2 p{
+	display: block;
+	margin: 0 auto;
+	width:36%;content: ".";
+  	display: block;
+  	clear: both;
+}
+
+.tombpuzzle{
+	background-image: url("../media/background/puzzle_bg.png");
+	min-height: 768px;
+	max-width: 1024px;
+}
+
+
+/*painting*/
+
+.painting_bg{
+	background-image: url("../media/background/painting_bg.png");
+	min-height: 768px;
+	max-width: 1024px;
+
+}
+
