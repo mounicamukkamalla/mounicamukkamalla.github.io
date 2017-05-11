@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 
 	<!--header-->
@@ -15,20 +18,25 @@
 		<div class="header">
 			<div class="row">
 			<div class="col-sm-1">
-				<img src="media/icons/home.png" class="icons">
-				<p> Home </p>
+				<a href = "dashboard.html">
+					<img src="media/icons/home.png" class="icons">
+					<p> Home </p>
+				</a>
 			</div>
 			<div class="col-sm-9">
 			<h1>Diwali Story</h1>
 			</div>
 			<div class="col-sm-1">
-				<img src="media/icons/audio.png" class="icons">
+				<img src="media/icons/audio_1.png" class="icons">
 				<p> Audio </p>
 			</div>
-			<div class="col-sm-1">
-				<img src="media/icons/games_1.png" class="icons">
-				<p> Games </p>
+			
+				<!-- Button trigger modal -->
+			<a data-toggle="modal" data-target="#myModal2">
+			<div class="col-sm-1"><img src="media/icons/games_1.png" class="icons">
+			<p style="opacity:0.2"> Games </p>
 			</div>
+			</a>
 			</div>
 		</div>
 
@@ -38,17 +46,39 @@
 			<p> In the palace lived a prince, Ram and his wife Sita with his mom, dad, brothers and sisters. </p>
 		</div>
 
+
+
+
 			<footer>
 				<div class="nav" id="back">
-					<img src="media/icons/back.png">
-					<p>Back</p>
+					<a href = "story_02.html"> 
+						<img src="media/icons/back.png">
+						<p>Back</p>
+					</a>
 				</div>
 				<div class="nav" id="next">
-					<img src="media/icons/next.png">
-					<p>Next</p>
+					<a href = "story_04.html"> 
+						<img src="media/icons/next.png">
+						<p>Next</p>
+					</a>
 				</div>
 			</footer>
 		</div>
+
+		<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="media/images/stop_message.png" width="500px">
+        <div class="modal-options">
+        <div id="justclose"><a type="button" data-dismiss="modal"><img src="media/icons/close.png"></a></div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<body>
 
 

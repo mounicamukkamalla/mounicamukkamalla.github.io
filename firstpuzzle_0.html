@@ -6,6 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable1" ).draggable({ snap: "#snaptarget1" });
+    $( "#draggable2" ).draggable({ snap: "#snaptarget2" });
+    $( "#draggable3" ).draggable({ snap: "#snaptarget3" });
+  } );
+  </script>
 	</head>
 
 	<!--header-->
@@ -15,23 +25,30 @@
 		<div class="header">
 			<div class="row">
 			<div class="col-sm-1">
+				<a href="dashboard.html">
 				<img src="media/icons/home.png" class="icons">
 				<p> Home </p>
+				</a>
 			</div>
 			<div class="col-sm-10">
 			<h1>First Words</h1>
 			</div>
 			
 			<div class="col-sm-1">
+				<a href="games.html">
 				<img src="media/icons/games.png" class="icons">
 				<p> Games </p>
+				</a>
 			</div>
 			</div>
 		</div>
 
 		
-		<div class="level"> <img src="media/icons/levels.png" class="level_icon"> <!-- levels icon -->
+		<div class="level"> 
+			<a href="firstpuzzledashboard.html">
+			<img src="media/icons/levels.png" class="level_icon"> <!-- levels icon -->
 			  <p>Levels</p>
+			</a>
 		</div>
 
 
@@ -39,30 +56,64 @@
 			<img src="media/illustrations/word_ram.png" class="word_ram">
 		</div>
 
-		
 			<div class="blocks">
-				<div class="word_block">
-					<p> R </p>
+				<div id="snaptarget1" class="word_block">
+				</div>
+			
+				<div id="snaptarget2" class="word_block">
 				</div>
 
-				<div class="word_block">
-					<p> A </p>
-				</div>
-
-				<div class="word_block">
-					<p> M  </p>
+				<div id="snaptarget3" class="word_block">
 				</div>
 			</div>
 
 
-		
+			<div class="blocks">
+				<div id="draggable1" class="word_block_0 draggable">
+					<p> R </p>
+				</div>
+			
+			
+				<div id="draggable2" class="word_block_00 draggable">
+					<p> A </p>
+				</div>
+
+				<div id="draggable3" class="word_block_000 draggable">
+					<p> M  </p>
+				</div>
+			
+
+</div>
+
+<!-- Button trigger modal -->
+<a style="color:#513b53;float:right;" data-toggle="modal" data-target="#myModal">
+  demo modal
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="media/images/popup_1.png">
+        <div class="modal-options">
+        <div id="replay"><a type="button" href="firstpuzzle_0.html"><img src="media/icons/replay.png"></a></div>
+        <div id="nextgame"><a type="button" href="firstpuzzle_2.html"><img src="media/icons/nextgame.png"></a></div>
+        <div id="close"><a type="button" data-dismiss="modal"><img src="media/icons/close.png"></a></div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 		<footer>
 				<div class="nav" id="back">
+					<a href="games.html">
 					<img src="media/icons/back.png">
 					<p>Back</p>
+					</a>
 				</div>
 				
 			</footer>

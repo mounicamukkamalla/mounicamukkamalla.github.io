@@ -11,49 +11,98 @@
 <!--header-->
 
 <body>
-	<div class="story_02">
-	<div class="header">
-		<div class="row">
-		<div class="col-sm-1">
-			<img src="media/icons/home.png" class="icons">
-			<p> Home </p>
-		</div>
-		<div class="col-sm-9">
-		<h1>Diwali Story</h1>
-		</div>
-		<div class="col-sm-1">
-			<img src="media/icons/audio.png" class="icons">
-			<p> Audio </p>
-		</div>
-		<div class="col-sm-1">
-			<img src="media/icons/games_1.png" class="icons">
-			<p> Games </p>
-		</div>
-		</div>
-	</div>
+  <div class="story_02">
+  <div class="header">
+    <div class="row">
+    <div class="col-sm-1">
+      <a href = "dashboard.html">
+        <img src="media/icons/home.png" class="icons">
+        <p> Home </p>
+      </a>
+    </div>
+    <div class="col-sm-9">
+    <h1>Diwali Story</h1>
+    </div>
+    <div class="col-sm-1">
+      <a onClick="togglePlay()"><img src="media/icons/audio_1.png" class="icons"></a>
+      <p> Audio </p>
+    </div>
+    <div class="col-sm-1">
+      <a href = "#"> <!--pop message-->
+        <img src="media/icons/games_1.png" class="icons">
+        <p style="opacity:0.2"> Games </p>
+      </a>
+    </div>
+    </div>
+  </div>
+
+  <div class="storycontent1">
+	<audio id="audiofile" src="media/story_1.wav" controls preload="auto"></audio><br>
+        <div id="subtitles"></div>
+</div>
+<footer>
+      <div class="nav" id="back">
+        <a href = "story_01.html"> 
+          <img src="media/icons/back.png">
+          <p>Back</p>
+        </a>
+      </div>
+      <div class="nav" id="next">
+        <a href = "story_03.html"> 
+          <img src="media/icons/next.png">
+          <p>Next</p>
+        </a>
+      </div>
+    </footer>
+
+</div>
+        <script>
+
+        var myAudio = document.getElementById("audiofile");
+
+function togglePlay() {
+  return myAudio.paused ? myAudio.play() : myAudio.pause();
+  
+};
 
 
+  ( function(win, doc) {
+      var audioPlayer = doc.getElementById("audiofile");
+      var subtitles = doc.getElementById("subtitles");
+      var syncData = [
+            { "end": "0.4","start": "0.05","text": "Once" },
+            {"end": "0.8","start": "0.4","text": "upon" },
+            {"end": "1.2","start": "0.8","text": "a" },
+            {"end": "1.6","start": "1.2","text": "time" },
+            {"end": "2.0","start": "1.6","text": "there" },
+            {"end": "2.4","start": "2.0","text": "was" },
+            {"end": "2.8","start": "2.4","text": "a" },
+            {"end": "3.2","start": "2.8","text": "palace" },
+            {"end": "3.6","start": "3.2","text": "in" },
+            {"end": "4.0","start": "3.6","text": "a" },
+            {"end": "3.2","start": "2.8","text": "city" },
+            {"end": "3.6","start": "3.2","text": "called" },
+            {"end": "4.0","start": "3.6","text": "Ayodhya." }
+          ];
+      createSubtitle();
 
-	<div class="storycontent1"> 
-		<p> Once upon a time, there was a palace in a city called Ayodhya. </p>
-	</div>
+      function createSubtitle()
+      {
+          var element;
+          for (var i = 0; i < syncData.length; i++) {
+              element = doc.createElement('span');
+              element.setAttribute("id", "c_" + i);
+              element.innerText = syncData[i].text + " ";
+              subtitles.appendChild(element);
+          }
+      }
 
-	
-
-
-	<footer>
-			<div class="nav" id="back">
-				<img src="media/icons/back.png">
-				<p>Back</p>
-			</div>
-			<div class="nav" id="next">
-				<img src="media/icons/next.png">
-				<p>Next</p>
-			</div>
-		</footer>
-	</div>
-<body>
-
-
-
-</html>
+      audioPlayer.addEventListener("timeupdate", function(e){
+          syncData.forEach(function(element, index, array){
+              if( audioPlayer.currentTime >= element.start && audioPlayer.currentTime <= element.end )
+                  subtitles.children[index].style.background = '#ed1954';
+          });
+      });
+  }(window, document));
+  </script>
+</body>
